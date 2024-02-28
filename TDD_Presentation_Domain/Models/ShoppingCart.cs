@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TDD_Presentation_domain
+namespace TDD_Presentation_Domain.Models
 {
     public class ShoppingCart
     {
         public List<Product> Items { get; set; } = new();
         private IReadOnlyList<Product> _items = new List<Product>();
-       
+
 
         public ShoppingCart()
         {

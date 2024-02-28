@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TDD_Presentation_domain
+namespace TDD_Presentation_Domain.Models
 {
-    public enum Categories { Lebensmittel, Elektronik, Getränk }
-
     public class Product
     {
         public int Id { get; set; }
@@ -16,7 +14,7 @@ namespace TDD_Presentation_domain
 
         public string Description { get; set; } = string.Empty;
 
-        public string Categorie { get; set; }
+        public string Category { get; set; }
 
         public int Price { get; set; }
 
